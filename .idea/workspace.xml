@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e4711a-6ca5-4762-ad9e-5e0fadd74caf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1.css" beforeDir="false" afterPath="$PROJECT_DIR$/task1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/task1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2.css" beforeDir="false" afterPath="$PROJECT_DIR$/task2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/task2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -31,6 +31,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -47,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610808647943</updated>
       <workItem from="1610808650500" duration="303000" />
-      <workItem from="1610808969145" duration="2617000" />
+      <workItem from="1610808969145" duration="3754000" />
     </task>
     <servers />
   </component>
