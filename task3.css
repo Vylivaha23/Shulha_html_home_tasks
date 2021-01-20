@@ -1,8 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 60%;
+}
+
 table {
-  width: 100%;
-  text-align: center;
+  border-collapse: collapse;
   border-spacing: 0;
-  }
+  text-align: center;
+  width: 100%;
+}
 
 tr:nth-child(2n) {
   background-color: #d2deea;
@@ -10,18 +22,18 @@ tr:nth-child(2n) {
 }
 
 td:nth-child(3) {
-  background-color: bisque;
+  background-color: #eceeb6;
 }
 
 td:nth-child(5) {
-  background-color: bisque;
+  background-color: #eceeb6;
 }
 td:nth-child(7) {
-  background-color: bisque;
+  background-color: #eceeb6;
 }
 
 td:nth-child(9) {
-  background-color: bisque;
+  background-color: #eceeb6;
 }
 
 td {
