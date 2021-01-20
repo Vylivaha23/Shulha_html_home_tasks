@@ -1,0 +1,29 @@
+table {
+  width: 100%;
+  text-align: center;
+  border-spacing: 0;
+  }
+
+tr:nth-child(2n) {
+  background-color: #d2deea;
+
+}
+
+td:nth-child(3) {
+  background-color: bisque;
+}
+
+td:nth-child(5) {
+  background-color: bisque;
+}
+td:nth-child(7) {
+  background-color: bisque;
+}
+
+td:nth-child(9) {
+  background-color: bisque;
+}
+
+td {
+  border-bottom: 2px solid #cdc7c7;
+}
