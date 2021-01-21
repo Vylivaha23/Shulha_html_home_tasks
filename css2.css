@@ -1,0 +1,36 @@
+.container {
+  width: 60%;
+}
+
+nav {
+  background-color: blueviolet;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+.menu li a {
+  padding: 11px 10px;
+  text-decoration: none;
+  color: white;
+  line-height: 38px;
+}
+
+.menu li a:hover {
+  background-color: #eee;
+  color: #9faabc;
+}
+
+li:first-child {
+  padding-left: 20px;
+}
+
+li:last-child {
+  padding-left: 150px;
+}
+
