@@ -26,9 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b777a3c-f4fe-44c3-800c-8760c934d91b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/task1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1.css" beforeDir="false" afterPath="$PROJECT_DIR$/task1.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -69,7 +69,7 @@
       <updated>1611237592804</updated>
       <workItem from="1611237599436" duration="4123000" />
       <workItem from="1611574520585" duration="543000" />
-      <workItem from="1612362433061" duration="296000" />
+      <workItem from="1612362433061" duration="1451000" />
     </task>
     <servers />
   </component>
