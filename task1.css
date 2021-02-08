@@ -3,7 +3,6 @@ body {
   font-size: 1.5em;
 }
 
-/*Add background image for comparison*/
 div:after {
   content: "";
   background: url("task1.png");
@@ -64,7 +63,6 @@ input[type="checkbox"] {
   display: none;
 }
 
-/*Add reaction on click for labels*/
 input[id="red"]:not(checked) ~ label[for="red"],
 input[id="green"]:not(checked) ~ label[for="green"],
 input[id="blue"]:not(checked) ~ label[for="blue"] {
@@ -77,7 +75,6 @@ input[id="blue"]:checked ~ label[for="blue"] {
   opacity: 0.3;
 }
 
-/*Add reaction on click for spans*/
 input[id="red"]:not(checked) ~ span[class="red"],
 input[id="green"]:not(checked) ~ span[class="green"],
 input[id="blue"]:not(checked) ~ span[class="blue"] {
