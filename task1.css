@@ -5,7 +5,6 @@ body {
 
 div::after {
   content: "";
-
   background-repeat: no-repeat;
   opacity: 0.3;
   top: 170px;
