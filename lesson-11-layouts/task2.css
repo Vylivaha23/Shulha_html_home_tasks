@@ -1,0 +1,89 @@
+body {
+  background: black;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  cursor: default;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.testimonials-block-header {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ed7f2b;
+}
+
+.testimonials-block-header span {
+  color: #3270a6;
+}
+
+.half-page-desktop {
+  width: 50%;
+}
+
+.testimonials-block-item {
+  padding: 15px;
+}
+
+.testimonials-block-image img {
+  width: 100px;
+  height: 100px;
+}
+
+.testimonials-block-content {
+  position: relative;
+  padding: 5px 15px 3px 15px;
+  margin-left: 125px;
+  background: white;
+}
+
+.testimonials-block-content:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -15px;
+  margin-left: -30px;
+  border: 15px solid transparent;
+  border-right: 15px solid white;
+}
+
+.testimonials-block-title {
+  border-bottom: 2px dotted #666;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #3270a6;
+}
+
+.testimonials-block-client-name:before {
+  content: "\002d";
+  margin-right: 3px;
+}
+
+.testimonials-block-description {
+  margin: 10px 0 15px;
+  font-size: 13px;
+  color: #917e91;
+}
