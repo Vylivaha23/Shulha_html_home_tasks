@@ -1,0 +1,71 @@
+body {
+  font: 18px Oswald, sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  background-color: white;
+  margin: 0 auto;
+  max-width: 449px;
+  cursor: default;
+}
+
+nav {
+  background: #fafafa;
+  margin: 10px 4px;
+}
+
+nav > ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: -4px;
+}
+
+nav ul a {
+  font-size: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #a23cd0;
+  display: block;
+  padding: 3px 8px;
+  margin: 2px 3px 6px 2px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+nav ul li:hover, .pager-active {
+  background: #fafafa;
+}
+
+nav ul li:hover > a, .pager-active > a {
+  color: white;
+  background: #a23cd0;
+  margin: 0 3px 0 2px;
+  border: 1px solid #7c12bc;
+  border-radius: 4px;
+  text-shadow: 1px 1px #7f1dc2;
+}
+
+.pager-prefix a, .pager-prefix:hover a, .pager-suffix a, .pager-suffix:hover a {
+  border: none;
+  margin: 0 5px 0 7px;
+}
+
+.pager-prefix a:before {
+  content: '\00ab';
+  margin-right: 3px;
+}
+
+.pager-suffix a:after {
+  content: '\00bb';
+  margin-left: 3px;
+}
+
+.pager-interval {
+  margin: 0 9px 4px 9px;
+  font-weight: 100;
+  color: #555;
+  vertical-align: bottom;
+}

@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+div:after {
+  content: "";
+  background: url("images/task1.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  top: 170px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+div {
+  margin: 15px 0;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: #008800;
+}
+
+.blue {
+  background-color: blue;
+}
+
+span {
+  padding: 5px 10px;
+  border-radius: 12px;
+  color: white;
+  margin: 15px 0 10px 1px;
+  font-weight: bold;
+}
+
+label {
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 20px 48px 20px 20px;
+  display: inline-block;
+}
+
+label[for="red"] {
+  color: red;
+}
+
+label[for="green"] {
+  color: #008000;
+}
+
+label[for="blue"] {
+  color: blue;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[id="red"]:not(checked) ~ label[for="red"],
+input[id="green"]:not(checked) ~ label[for="green"],
+input[id="blue"]:not(checked) ~ label[for="blue"] {
+  opacity: 1;
+}
+
+input[id="red"]:checked ~ label[for="red"],
+input[id="green"]:checked ~ label[for="green"],
+input[id="blue"]:checked ~ label[for="blue"] {
+  opacity: 0.3;
+}
+
+input[id="red"]:not(checked) ~ span[class="red"],
+input[id="green"]:not(checked) ~ span[class="green"],
+input[id="blue"]:not(checked) ~ span[class="blue"] {
+  display: inline-block;
+}
+
+input[id="red"]:checked ~ span[class="red"],
+input[id="green"]:checked ~ span[class="green"],
+input[id="blue"]:checked ~ span[class="blue"] {
+  display: none;
+}
+
